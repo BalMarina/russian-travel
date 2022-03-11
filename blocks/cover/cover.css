@@ -18,3 +18,17 @@
 .cover:hover::before {
     opacity: .8;
 }
+
+@media screen and (max-width: 767px) {
+    .cover {
+        margin-top: 66px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        max-width: calc(100% - 96px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
