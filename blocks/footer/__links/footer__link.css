@@ -1,0 +1,7 @@
+.footer__links {
+    margin-top: 24px;
+    padding-inline-start: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}

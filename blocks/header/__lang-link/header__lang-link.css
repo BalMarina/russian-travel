@@ -1,0 +1,9 @@
+.header__lang-link {
+    color: #FFFFFF;
+    text-decoration-line: none;
+    margin-left: 18px;
+}
+
+.header__lang-link:hover {
+    text-decoration-line: underline;
+}
