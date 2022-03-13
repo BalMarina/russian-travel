@@ -1,12 +1,14 @@
 .place {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 80px auto 0;
+    width: 100%;
 }
 
 @media screen and (max-width: 767px) {
     .place {
-        display: inline;
+        flex-direction: column;
         margin: 0 auto;
     }
 }
@@ -15,6 +17,7 @@
     .place {
         max-width: calc(100% - 48px);
         column-gap: 28px;
+        margin-top: 73px;
     }
 }
 

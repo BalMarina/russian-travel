@@ -1,31 +1,27 @@
-.place__website {
-    margin-block-start: 0;
-    margin-block-end: 48px;
+.place__text {
     width: 50%;
-    align-self: end;
 }
 
 @media screen and (max-width: 767px) {
-    .place__website {
-        margin-block-end: 32px;
+    .place__text {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .place__website {
-        max-width: calc(50% - 9px);
+    .place__text {
+        max-width: calc(50% - 14px + 6px);
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width:1279px) {
-    .place__website {
-        max-width: calc(50% - 16px);
+    .place__text {
+        max-width: calc(50% - 16px + 8px);
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .place__website {
+    .place__text {
         max-width: calc(50% - 20px + 12px);
     }
 }
