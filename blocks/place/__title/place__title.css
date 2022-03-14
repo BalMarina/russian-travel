@@ -21,7 +21,7 @@
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        max-width: calc(50% - 14px - 6px);
+        max-width: calc(50% - 24px - 6px);
     }
 }
 
